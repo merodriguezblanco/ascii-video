@@ -15,7 +15,7 @@ effects.
 ## Output example
 
 ![Output
-Example](https://github.com/merodriguezblanco/ascii-video/blob/master/captures/capture.gif)
+Example](https://github.com/merodriguezblanco/ascii-video/blob/master/captures/capture2.gif)
 
 ## How to run
 
