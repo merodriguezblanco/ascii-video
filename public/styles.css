@@ -1,0 +1,92 @@
+html {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: -webkit-linear-gradient(left, rgba(109,0,1,.2) 0%, rgba(204,0,0,.5) 100%);
+  background: -o-linear-gradient(left, rgba(109,0,1,.2) 0%, rgba(204,0,0,.5) 100%);
+  background: -ms-linear-gradient(left, rgba(109,0,1,.2) 0%, rgba(204,0,0,.5) 100%);
+  background: linear-gradient(to right, rgba(109,0,1,.2) 0%, rgba(204,0,0,.5) 100%);
+  background-color: #990000;
+  background-repeat: repeat;
+  background-size: 50px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0 0.2rem 0 #000;
+}
+
+.warning {
+  margin: 2rem auto;
+}
+
+.warning p {
+  border: 4px solid #FF9933;
+  background-color: #FFCC33;
+  border-radius: 0.3rem;
+  color: #FF6633;
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.photo-booth {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-wrap: wrap;
+  -moz-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row;
+  -moz-flex-flow: row;
+  flex-flow: row;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  margin: 5rem auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.camera {
+  background-color: #000;
+  border: 6px solid;
+  border-left-color: #FFF;
+  border-top-color: #FFF;
+  border-right-color: rgba(265, 265, 265, 0.5);
+  border-bottom-color: rgba(265, 265, 265, 0.5);
+  -webkit-box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
+}
+
+.ascii-video {
+  background-color: #FFF;
+  border: 6px solid;
+  border-left-color: #FFF;
+  border-top-color: #FFF;
+  border-right-color: rgba(265, 265, 265, 0.5);
+  border-bottom-color: rgba(265, 265, 265, 0.5);
+  -webkit-box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
+  height: 300px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 400px;
+}
+
+.ascii-video pre {
+  margin: 0;
+}
