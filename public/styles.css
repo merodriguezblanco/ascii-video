@@ -88,5 +88,6 @@ h1 {
 }
 
 .ascii-video pre {
+  font-size: 0.12rem;
   margin: 0;
 }
